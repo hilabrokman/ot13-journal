@@ -159,7 +159,7 @@
       border: 1px solid var(--border);
     }
     .info-cell { padding: 2.5rem; border-left: 1px solid var(--border); }
-    .info-cell:first-child { border-left: none; }
+    .info-cell:first-child, .info-cell:last-child { border-left: none; }
     .info-cell-label { font-size: 0.65rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-lighter); margin-bottom: 0.9rem; }
     .info-cell-value { font-size: 0.9rem; line-height: 1.8; }
     .info-cell-value a { color: var(--accent); text-decoration: none; }
@@ -197,7 +197,7 @@
       .article-card.featured { grid-column: span 1; }
       .info-band { grid-template-columns:1fr; }
       .info-cell { border-left:none; border-top:1px solid var(--border); }
-      .info-cell:first-child, .info-cell:last-child { border-top:none; }
+      .info-cell:first-child { border-top:none; }
       .footer-inner { grid-template-columns:1fr; gap:3rem; }
       .footer-links { grid-template-columns:1fr; gap:2rem; }
       .editors-strip { padding:1rem 1.5rem; }
